@@ -596,7 +596,7 @@ const loginWithGoogle = asyncHandler(async (req, res) => {
   const { name, email, picture, sub } = payload;
   const password = Date.now() + sub;
   // Get UserAgent
-  const ua = parser(req.headers["user-agent"]);
+  const ua = uaparser(req.headers["user-agent"]);
   const userAgent = [ua.ua];
   // Check if user exists
   const user = await User.findOne({ email });
