@@ -17,7 +17,7 @@ app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(bodyParser.json());
 app.use(cors({
-  origin: ["http://localhost:3000", "https://melodic-hotteok-e34598.netlify.app"],
+  origin: ["http://localhost:3000", process.env.FRONTEND_URL],
   credentials: true,
 }));
 
