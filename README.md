@@ -16,7 +16,7 @@ Click on this link to visit website => https://advanced-authentication-frontend.
 >Wanted to improve my knowledge of fullstack. 
 
 ##What feature, technical aspects you had implemented ? 
->User can register, login, logout, update profile, reset password.
->Forgot password option available for user.
->Supports Google sign in.
->Admin exclusive features.
+- User can register, login, logout, update profile, reset password.
+- Forgot password option available for user.
+- Supports Google sign in.
+- Admin exclusive features.
