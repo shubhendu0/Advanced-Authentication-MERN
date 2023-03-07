@@ -12,10 +12,10 @@ Click on this link to visit website => https://advanced-authentication-frontend.
 ## Project Status
 - The project is complete but i will make some updates in future.
 
-##Why this project was chosen ?  
+## Why this project was chosen ?  
 >Wanted to improve my knowledge of fullstack. 
 
-##What feature, technical aspects you had implemented ? 
+## What feature, technical aspects you had implemented ? 
 - User can register, login, logout, update profile, reset password.
 - Forgot password option available for user.
 - Supports Google sign in.
